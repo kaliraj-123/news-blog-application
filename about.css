@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    margin: 0;
+    background-color: bisque;
+    font-family: system-ui,'Times New Roman', Times, serif;
+}
+.heropage{
+    max-width: 700px;
+    margin: 60px auto;
+    padding: 40px;
+    background: white;
+    border-radius: 20px;
+    text-align: center;
+}
+.heropage h2{
+    margin-bottom: 15px;
+    font-size: 2rem;
+}
+.heropage p{
+    line-height: 1.6;
+}
