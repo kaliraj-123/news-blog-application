@@ -66,3 +66,34 @@ button{
     border-radius: 25px;
     object-fit: cover;
 }
+.company{
+    display: flex;
+    justify-content: center;
+    margin-top:25px ;
+    gap: 20px;
+}
+.company h2{
+    margin-top: 16px;
+}
+.footer-column{
+    display: flex;
+    justify-content: center;
+}
+.footer-column img{
+    gap: 10px;
+
+}
+h4,h3,
+.address{
+    display: flex;
+    justify-content:center;
+    margin-top: 20px;
+}
+.address p{
+   width: 40%;
+   line-height: 1.6;
+   text-align: center;
+}
+.footer-column{
+    gap:15px
+}
