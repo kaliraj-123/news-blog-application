@@ -1,0 +1,56 @@
+.tit{
+    display: flex;
+    justify-content: center;
+    margin-top:80px;
+    margin-bottom: 100px;
+    background-color: #dcadad;
+    width: 98%;
+    border-radius: 20px 0px 20px;
+    padding: 15px;
+}
+.login-container{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.login-box{
+    height: 40vh;
+    width: 330px;
+    padding: 30px;
+    background: transparent;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px #dcadad;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.login-box h2
+{
+    text-align: center;
+    
+}
+.login-box h5,
+.login-box a{
+    text-decoration: none;
+    text-align: center;
+}
+.login-box input,
+.login-box button{
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.login-box button{
+    background: #dcadad;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+}
+
+.login-box button:hover{
+    background: #9e8239;
+}
