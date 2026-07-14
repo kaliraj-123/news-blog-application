@@ -3,6 +3,8 @@ body{
     margin: 0;
     background-color: bisque;
     font-family: system-ui,'Times New Roman', Times, serif;
+    flex-direction: column;
+    
 }
 .heropage{
     max-width: 700px;
@@ -18,4 +20,34 @@ body{
 }
 .heropage p{
     line-height: 1.6;
+}
+.about-page{
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+.about-page p{
+  font-size:large;    
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-top: 80px;
+}
+.about-page{
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn{
+    from{
+        opacity:0;
+    }
+    to{
+        opacity:1;
+    }
+}
+.realtime{
+    margin-left: 700px;
+    margin-top: -180px;
+    width: 600px;
 }
