@@ -4,16 +4,37 @@
         box-sizing: border-box;
 }
     body{     
-         background:#f5f5f5;
-         margin: 40px;
+         background:#f7f3ee;
+        
   } 
     .profile-container{
     display:flex;
     justify-content:center;
     align-items:center;
     flex-direction: column;
-    background-color: #9e4444;
+    background-color: #dcadad;
+     margin-top: 40px;
+    margin-left: 300px;
+    margin-right: 300px;
+    border-radius: 25px;
+    padding: 20px;
+ }
+ .profilePic{
+        margin-top: 15px;
  }
 button{
         padding: 8px;
+        border-radius: 15px;
+        background-color: #f7f3ee;
+        border-color: #f7f3ee;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.profile-details{
+        margin-top: 28px;
+        display: grid;
+        row-gap: 25px;
+        width: 30%;
+}
+.profile-details p{
+        display: flex;
 }
