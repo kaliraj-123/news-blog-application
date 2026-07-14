@@ -5,10 +5,11 @@
 }
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background: #f7f3ee;
     color: #222;
+    background-color: #F5F7FC;;
     min-height: 100vh;
 }
+
 nav{
     display:flex;
     justify-content:space-between;
@@ -32,53 +33,36 @@ nav a{
 }
  nav h2{
    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-a:hover{
-    background-color: #9e8239;
-}
-.login-container{
-display: flex;
-justify-content: center;
-align-items: center;
-height: 80vh;
-}
+   color: rgb(170, 73, 73);
+ }
+a:hover,
+button:hover{
+    background-color: #dcadad;
+    color: white;
 
-.login-box{
-    height: 40vh;
-    width: 350px;
-    padding: 30px;
-    background: transparent;
-    border-radius: 15px;
-    box-shadow: 0 5px 15px #dcadad;
-
+}
+.heropage{
+    margin-top:160px;
+    display: flex;
+    align-items: center;
+    gap: 150px;
+    margin-left: 100px;
+}
+.content{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    align-items: flex-start;
+    max-width: 450px;
+    margin-top: 10px;
 }
-
-.login-box h2
-{
-    text-align: center;
+button{
+    padding: 10px;
+    width: 115px;
+    border-radius: 20px 3px 20px;
+    border-color: white;
 }
-.login-box h5,
-.login-box a{
-    text-decoration: none;
-    text-align: center;
-}
-.login-box input,
-.login-box button{
-    padding: 12px;
-    border-radius: 8px;
-    border: 1px solid #ccc;
-}
-
-.login-box button{
-    background: #dcadad;
-    cursor: pointer;
-    border: none;
-    font-size: 16px;
-}
-
-.login-box button:hover{
-    background: #9e8239;
+.heropage video{
+  
+    border-radius: 25px;
+    object-fit: cover;
 }
