@@ -1,18 +1,22 @@
 body{
     display: flex;
     margin: 0;
-    background-color: bisque;
     font-family: system-ui,'Times New Roman', Times, serif;
     flex-direction: column;
+    background-color: #F5F9FF;
     
 }
 .heropage{
     max-width: 700px;
     margin: 60px auto;
     padding: 40px;
-    background: white;
+    background:linear-gradient(135deg,#0F172A,#1E3A8A);;
     border-radius: 20px;
+    color: #F5F9FF;
     text-align: center;
+}
+.heropage img{
+ background-color: #F5F9FF;
 }
 .heropage h2{
     margin-bottom: 15px;
@@ -22,32 +26,60 @@ body{
     line-height: 1.6;
 }
 .about-page{
-    margin-left: 50px;
-    margin-right: 50px;
-    height: 20px;
     display: flex;
     justify-content: center;
-    gap: 60px;
-}
-.about-page p{
-  font-size:large;    
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  margin-top: 80px;
-}
-.about-page{
-    animation: fadeIn 2s ease-in-out;
+    align-items: center;
+    gap: 150px;
+    margin: 5px;
 }
 
-@keyframes fadeIn{
-    from{
-        opacity:0;
-    }
-    to{
-        opacity:1;
-    }
+.about-page video{
+    object-fit:cover;
+    border-radius:25px;
 }
-.realtime{
-    margin-left: 700px;
-    margin-top: -180px;
-    width: 600px;
+
+.about-page p{
+    max-width:550px;
+    font-size:20px;
+    line-height:1.8;
+}
+
+h1{
+    text-align:center;
+    margin:60px 0 30px;
+}
+.company{
+    display: flex;
+    justify-content: center;
+    margin-top:25px ;
+    gap: 20px;
+}
+.company h2{
+    margin-top: 16px;
+}
+.footer-column{
+    display: flex;
+    justify-content: center;
+}
+.footer-column img{
+    gap: 10px;
+
+}
+h4,h3,
+.address{
+    display: flex;
+    justify-content:center;
+    margin-top: 20px;
+}
+.address p{
+   width: 40%;
+   line-height: 1.6;
+   text-align: center;
+}
+.footer-column{
+    gap:15px
+}
+.kali{
+    display: flex;
+    justify-content: center;
 }
